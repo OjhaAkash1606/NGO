@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+.bg_img {
+  width: 100%;
+  height: 100vh;
+  background: url("../../IMG/bbsctlogo.jpg") rgba(41, 35, 35, 0.7);
+  background-blend-mode: darken;
+  background-size: 100% 100%;
+}
+.small_bg_img {
+  width: 100%;
+  height: 50vh;
+  background: url("../../IMG/bbsctlogo.jpg") rgba(41, 35, 35, 0.7);
+  background-blend-mode: darken;
+  background-size: 100% 100%;
+}
+.navbar_wrap {
+  width: 100%;
+  height: 10vh;
+  background: url("../../IMG/bbsctlogo.jpg") rgba(41, 35, 35, 0.7);
+  /* border-bottom: 0.5px solid black; */
+  display: flex;
+  background-size: 100%;
+  justify-content: center;
+  align-items: flex-end;
+  background-blend-mode: darken;
+}
+.Navbar_items {
+  display: flex;
+  width: 70%;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+}
+.Navbar_items li {
+  /* border: 1px solid orangered; */
+  list-style: none;
+}
+
+.nav_title {
+  color: whitesmoke;
+  height: 5vh;
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  border: 1px solid whitesmoke;
+  border-radius: 0 10px;
+  width: 8rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  align-items: center;
+}
+.nav_title:hover {
+  background-color: black;
+  color: whitesmoke;
+  transition: 0.5s all ease-in-out;
+}
